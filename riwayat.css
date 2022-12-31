@@ -1,0 +1,47 @@
+*{
+    font-family: 'Inter', sans-serif;
+}
+
+
+body{
+    color: #000;
+    overflow-x: hidden;
+    height: 100%;
+    background-image:url(img/mobil.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container{
+    background-color: #1b1d255b; 
+    backdrop-filter: blur(25%); 
+    opacity: 20px; 
+    border-color: #ffffff3f; 
+    width: 93%;
+}
+
+button {
+    margin-top: 40px;
+    font-weight: 300;
+    font-family: 'Inter', sans-serif;
+    color: white;
+    transition: 0.5s;
+    background-size: 400% auto;
+    background-image: linear-gradient(to right, #a662ff 0%, #9241FE 61%, #7b16ff 100%);
+    font-size: 18px;
+    margin-top: 40px;
+    align-items: center;
+    text-align: center;
+    height: 50px;
+    width: 25%;
+    padding: 11px;
+    border: none;
+    border-radius: 40px;
+    box-shadow: 0px 10px 21px -7px #8425ff;
+    margin-bottom: 50px;
+}
+
+button:hover {
+    background-position: right center;
+}
+
